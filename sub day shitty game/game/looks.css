@@ -1,0 +1,141 @@
+
+body {
+    margin: 0;
+}
+
+a {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.815);
+    text-decoration: none;
+}
+
+
+#backgroundImage {
+    background-image: url(Darth-Fazbear.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    color: red;
+}
+
+.startBox {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);    
+  }
+
+
+
+#startHouse {
+    display: none;
+    background-image: url(startdoor.jpg);
+    height: 700px;
+    background-size: cover;
+    
+
+}
+
+.text {
+    width: 97%;
+    height: 15%;
+    position: absolute;
+    top: 85%;
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+    border: black solid 3px;
+}
+
+.choices {
+    width: 99%;
+    height: 19%;
+    position: absolute;
+    top: 66%;
+    display: grid;
+    grid-template-columns: auto auto ;
+    text-align: center;
+}
+
+#enterHouse {
+    display: none;
+    background-image: url(hallway.jpg);
+    height: 700px;
+    background-size: cover;
+}
+
+#pizza {
+    display: none;
+    background-image: url(Moldy_Pizza_Hallway.jpg.png);
+    height: 700px;
+    background-size: cover;
+}
+
+#walking {
+    display: none;
+    background-image: url(hallway.jpg);
+    height: 700px;
+    background-size: cover;
+}
+
+#vader {
+    display: none;
+    background-image: url(Hall_Vader.png);
+    height: 700px;
+    background-size: cover;
+}
+
+#fight {
+    display: none;
+    background-image: url(Lv_100_Darth_Fazbear.png);
+    height: 700px;
+    background-size: cover;
+}
+
+#kickf {
+    display: none;
+    background-image: url(Man_down_with_sand.png);
+    height: 700px;
+    background-size: cover;
+}
+
+#punchf {
+    display: none;
+    background-image: url(Lv_100_Darth_Fazbear.png);
+    height: 700px;
+    background-size: cover;
+}
+
+#gameover {
+    display: none;
+    background-image: url(Game_Over.jpeg);
+    height: 700px;
+    background-size: cover;
+}
+
+#sandat {
+    display: none;
+    background-image: url(Lv_100_Darth_Fazbear.png);
+    height: 700px;
+    background-size: cover;
+}
+
+#youwin {
+    display: none;
+    background-image: url(You_Win_Buff_Man.png);
+    height: 700px;
+    background-size: cover;
+}
+
+
+
+

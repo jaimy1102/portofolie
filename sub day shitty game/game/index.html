@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="looks.css">
+    <link rel="stylesheet" href="buttons.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="backgroundImage">
+    <h1 class="title" id="title">1 night at Vaders</h1>
+
+    <a href="../../index.html">
+        <h1>back to portofolje</h1>
+    </a>
+    
+
+
+        <div class="startBox" id="startBox">
+        <button onclick="start()" id="StartButton">Start</button>
+    </div>
+    </div>    
+    
+    <div id="startHouse">
+        <div class="choices" id="startHouseChoices">
+            <button onclick="leave()" id="leave">leave</button>
+            <button onclick="enter()" id="enter">enter</button>
+        </div>
+        <div class="text" id="startHouseText">you have stumbled upon a strange building and you kinda want to check it out <br> will you go in? or go back home?</div>
+    </div>
+
+    <div id="enterHouse">
+        <div class="choices" id="enterHouseChoices">
+            <button onclick="enterContinue()" id="enterContinue">continue</button>
+        </div>
+        <div class="text" id="enterHouseText">you were crazy enough to enter the scary looking house to look around</div>
+
+    </div>
+
+    <div id="pizza">
+        <div class="choices" id="pizzaChoises">
+            <button onclick="eatpizza()" id="eatpizza">eat pizza</button>
+            <button onclick="droppizza()" id="droppizza">drop pizza</button>
+        </div>
+        <div class="text" id="pizzaText">you found a molding pizza on the ground and kinda want to eat it</div>
+        
+    </div>
+
+    <div id="walking">
+        <div class="choices" id="walkingChoices">
+            <button onclick="walkingContinue()" id="walkingContinue">Continue</button>
+        </div>
+        <div class="text" id="walkingText">you have dropped the pizza and you hear something walking towords you <br> it sounds like metal stomping on the ground </div>
+    </div>
+
+    <div id="vader">
+        <div class="choices" id="vaderChoices">
+            <button onclick="vaderflee()" id="vaderflee">run away</button>
+            <button onclick="vaderfight()" id="vaderfight">fight</button>
+        </div>
+        <div class="text" id="vaderText">darth vader has found you. there is no other option then fighting him because you will never be able to run away from him with the force.</div>
+    </div>
+
+    <div id="fight">
+        <div class="choices" id="fightChoices">
+            <button onclick="punch()" id="punch">punch</button>
+            <button onclick="kick()" id="kick">kick</button>
+        </div>
+        <div class="text" id="fightText">you have entered a fight with freddy fazbear and darth vader. <br> running away isnt an option you must fight</div>
+    </div>
+
+    <div id="kickf">
+        <div class="choices" id="kickfChoices">
+            <button onclick="kickContinue()" id="kickContinue">continue</button>
+        </div>
+        <div class="text" id="kickfText">you tried to kick them <br> you fell on the ground and found sand and decided to pick it up</div>
+    </div>
+
+    <div id="punchf">
+        <div class="choices" id="punchfChoices">
+        <button onclick="punchContinue()" id="punchContinue">continue</button>
+    </div>
+        <div class="text" id="punchfText">you tried to punch them <br> you took 50% recoil damage because you cant hit through metal</div>
+    </div>
+
+    <div id="gameover">
+        <div class="choices" id="gameoverChoices">
+            <button onclick="retry()" id="retry">retry</button>
+        </div>
+        <div class="text" id="gameoverText">freddy took you out </div>
+    </div>
+
+    <div id="sandat">
+        <div class="choices" id="sandChoices">
+            <button onclick="punch()" id="punch">punch</button>
+            <button onclick="sand()" id="sand">sand</button>
+        </div>
+        <div class="text" id="sandText">you threw sand at vader <br> it was supper effective darth vader fainted and freddy was confused</div>
+    </div>
+
+    <div id="youwin">
+        <div class="choices" id="youwinChoices">
+            <button onclick="win()" id="win">win</button>
+        </div>
+        <div class="text" id="youwinText">you won congrats</div>
+    </div>
+
+    
+    
+    
+    
+    
+    
+    
+    <script src="code.js"></script>    
+</body>
+</html>

@@ -1,0 +1,111 @@
+#StartButton {
+    height: 100px;
+    width: 200px;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#leave {
+    background-color: rgba(68, 50, 50, 0.575);
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#enter {
+    background-color: rgba(68, 50, 50, 0.575);
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#enterContinue {
+    background-color: rgba(68, 50, 50, 0.575);
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#eatpizza {
+    background-color: rgba(68, 50, 50, 0.575);
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#droppizza {
+    background-color: rgba(68, 50, 50, 0.575);
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#walkingContinue {
+    background-color: rgba(68, 50, 50, 0.575);
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#vaderflee {
+    background-color: rgba(68, 50, 50, 0.575);
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#vaderfight {
+    background-color: rgba(68, 50, 50, 0.575);
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#kick {
+    background-color: rgba(68, 50, 50, 0.575);
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#punch {
+    background-color: rgba(68, 50, 50, 0.575);
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#punchContinue {
+    background-color: rgba(68, 50, 50, 0.575);
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#retry {
+    background-color: rgba(68, 50, 50, 0.575);
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#sand {
+    background-color: rgba(68, 50, 50, 0.575);
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif    
+}
+
+#kickContinue {
+    background-color: rgba(68, 50, 50, 0.575);
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#win {
+    background-color: rgba(68, 50, 50, 0.575);
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif
+}

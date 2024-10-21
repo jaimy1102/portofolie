@@ -1,0 +1,42 @@
+body {
+    background-image: linear-gradient(rgb(242, 149, 165), rgb(47, 224, 47));
+}
+
+h1 {
+    text-align: center;
+        
+}
+
+.back a {
+    text-decoration: none;
+    color: black;
+}
+
+.back {
+    border: solid black 5px;
+    padding: 0 20px;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+
+.objects {
+    text-align: center;
+}
+
+.creature {
+    padding: 50px;
+}
+
+.bookcover {
+    padding: 50px;
+}
+
+.mee {
+    padding: 50px;
+}
+
+.logo {
+    padding: 50px;
+}
+

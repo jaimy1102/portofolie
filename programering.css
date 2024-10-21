@@ -1,0 +1,54 @@
+body {
+    background-image: linear-gradient(green, blue);
+}
+
+h1 {
+    text-align: center;
+        
+}
+
+
+#objects {
+    text-align: center;
+}
+
+#spel {
+    background-color: rgba(255, 255, 255, 0);
+    border: rgba(0, 0, 0, 0);
+}
+
+.back a {
+    text-decoration: none;
+    color: black;
+}
+
+.back {
+    border: solid black 5px;
+    padding: 0 20px;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+
+.database {
+    width: 800px;
+    grid-template-columns: auto auto ;
+    display: grid;
+    margin: 0 auto;
+}
+
+.database img {
+    width: 100%;
+}
+
+.nav {
+    padding: 50px;
+}
+
+.spel {
+    padding: 50px;
+}
+
+.databases {
+    padding: 50px;
+}

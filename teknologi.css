@@ -1,0 +1,65 @@
+body {
+    background-image: linear-gradient( rgb(246, 246, 204), black);
+}
+
+h1 {
+    text-align: center;
+        
+}
+
+.objects {
+    text-align: center;
+    
+}
+
+.back a {
+    text-decoration: none;
+    color: black;
+}
+
+.back {
+    border: solid black 5px;
+    padding: 0 20px;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+
+.arduino {
+    width: 800px;
+    grid-template-columns: auto auto ;
+    display: grid;
+    margin: 0 auto;
+}
+
+.arduino img {
+    width: 100%;
+}
+
+.tplinks {
+    width: 800px;
+    grid-template-columns: auto auto ;
+    display: grid;
+    margin: 0 auto;
+}
+
+.tplinks img {
+    width: 100%;
+}
+
+.cisco {
+    padding: 50px;
+}
+
+.arduinocol {
+    padding: 50px;
+}
+
+.tinkercad {
+    padding: 50px;
+}
+
+.tplink {
+    padding: 50px;
+}
+
